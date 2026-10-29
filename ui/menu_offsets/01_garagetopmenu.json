@@ -1,0 +1,17 @@
+{
+ "stage": "16:9",
+ "moves": {
+  "ItemList": [
+   0,
+   -30
+  ]
+ },
+ "covers": [],
+ "stretch": 0,
+ "deep": {},
+ "explode": {},
+ "opaque": [],
+ "vfill": [],
+ "deepvfill": [],
+ "clones": []
+}

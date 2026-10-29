@@ -1,0 +1,11 @@
+; dxgi.dll proxy — forward the real exports to a renamed copy of the system dxgi
+; (build.sh copies the prefix's DXVK dxgi.dll to Game/dxgi_proxy.dll). Our DllMain
+; installs the hooks; everything else passes straight through so D3D init is intact.
+LIBRARY dxgi
+EXPORTS
+    CreateDXGIFactory=dxgi_proxy.CreateDXGIFactory
+    CreateDXGIFactory1=dxgi_proxy.CreateDXGIFactory1
+    CreateDXGIFactory2=dxgi_proxy.CreateDXGIFactory2
+    DXGIGetDebugInterface=dxgi_proxy.DXGIGetDebugInterface
+    DXGIGetDebugInterface1=dxgi_proxy.DXGIGetDebugInterface1
+    DXGIDeclareAdapterRemovalSupport=dxgi_proxy.DXGIDeclareAdapterRemovalSupport

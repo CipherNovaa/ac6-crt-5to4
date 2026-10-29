@@ -1,0 +1,31 @@
+# Build output
+hook/build/
+*.dll
+*.exe
+*.o
+
+# Never commit game files, captures or third-party tool downloads
+ui/tools/
+ui/gfx/
+ui/cache/
+ui/xml/
+ui/ac6.me3
+*.gfx
+*.bin
+*.rdc
+*.png
+*.zip
+*.tar.gz
+*.jar
+*.log
+backups/
+*.bak*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local config
+config.env
+.env

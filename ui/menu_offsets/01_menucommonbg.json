@@ -1,0 +1,17 @@
+{
+ "stage": "16:9",
+ "moves": {},
+ "covers": [],
+ "stretch": 0,
+ "deep": {},
+ "explode": {},
+ "opaque": [],
+ "vfill": [
+  "d1",
+  "d3",
+  "d6",
+  "d9",
+  "_Content_"
+ ],
+ "deepvfill": []
+}

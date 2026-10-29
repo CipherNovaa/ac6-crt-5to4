@@ -1,0 +1,29 @@
+{
+ "stage": "16:9",
+ "moves": {
+  "StatusBar": [
+   0,
+   155
+  ],
+  "MenuTitle": [
+   0,
+   -120
+  ],
+  "d89": [
+   0,
+   155
+  ],
+  "AdditionalProperties": [
+   0,
+   0
+  ]
+ },
+ "covers": [],
+ "stretch": 0,
+ "deep": {},
+ "explode": {},
+ "opaque": [],
+ "vfill": [],
+ "deepvfill": [],
+ "clones": []
+}

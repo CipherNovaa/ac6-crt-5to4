@@ -1,0 +1,9 @@
+profileVersion = "v1"
+
+[[supports]]
+game = "armoredcore6"
+
+[[package]]
+id = "ac6-54-ui"
+# crt-me3-launch.sh / the launcher fill this in from AC6_GAME_DIR on first run.
+path = "@GAME_DIR@/mod"
