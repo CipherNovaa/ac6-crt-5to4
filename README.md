@@ -12,7 +12,7 @@ Armored Core VI on a 5:4 CRT (1280x1024), filled edge to edge with correct geome
 
 ## What it does
 
-- Fills the whole 1280x1024 tube in missions, the garage and cutscenes: no letterbox, no stretch, round reticle, dynamic resolution still working.
+- Fills the whole 1280x1024 resolution in missions, the garage and cutscenes: no letterbox, no stretch, round reticle, dynamic resolution still working.
 - Removes the UI letterbox frame bars.
 - Moves the HUD gauges (AP, EN, ammo, radar, boss bar) out to the 5:4 edges. The reticle and lock-on markers are untouched, so they stay where the engine puts them.
 - Reflows the garage menus (top menu, Assembly, Paint, Decal, Image Editor, AC Data, OS Tuning, Arena, System, Missions, Parts Shop and more) so the old 16:9 band isn't visible.
@@ -64,7 +64,7 @@ So no aspect value drives the UI. FromSoftware's menus and HUD are Scaleform `.g
 
 The game's own `.gfx` files are not in this repo. `menu_offsets/` and `hud_offsets.json` hold only the author's edit operations, which the tools apply to your own unpacked copies.
 
-## Built with AI agents
+## Workflow for this Project
 
 The work was done in sessions with an AI coding agent driving the game on the real CRT. The tooling was built so the agent could check its own changes:
 
