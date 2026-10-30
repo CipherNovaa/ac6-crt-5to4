@@ -64,7 +64,7 @@ So no aspect value drives the UI. FromSoftware's menus and HUD are Scaleform `.g
 
 The game's own `.gfx` files are not in this repo. `menu_offsets/` and `hud_offsets.json` hold only the author's edit operations, which the tools apply to your own unpacked copies.
 
-## Workflow for this Project
+## Workflow for this project
 
 The work was done in sessions with an AI coding agent driving the game on the real CRT. The tooling was built so the agent could check its own changes:
 
